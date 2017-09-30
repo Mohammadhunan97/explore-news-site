@@ -1,0 +1,53 @@
+.logo{
+	text-align: center;
+	font-size: 3.1em;
+	color: rgb(65, 0, 153);
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+}
+.content {
+    background: #ded8e7;
+    width: 90vw;
+    position: relative;
+    left: 5vw;
+    height: 70vh;
+    display: flex;
+    border-radius: 5px;
+}
+.title{
+	font-family: 'Lato', sans-serif;
+	margin-right: 100px;
+	margin-top: 50px;
+	margin-left: 30px;
+}
+.right-content {
+	flex: 1;
+	margin-right: 40px;
+}
+.left-content {
+	flex: 1;
+	margin-left: 40px;
+}
+.ios-phone{
+	width: 35vw;
+	position: relative;
+	left:100px;
+	top: 100px;
+}
+.download-link {
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	width: 200px;
+	min-width: 200px;
+	max-width: 200px;
+	background: #e9214d;
+	border: 5px solid #e9214d;
+	margin-left: 100px;
+}
+@media screen and (max-width: 500px) {
+    .logo {
+       font-size: 2.1em;
+    }
+}
+
